@@ -1,0 +1,129 @@
+.form {
+    display: flex;
+    flex-direction: column;  
+    align-items: center; 
+    max-width: 60%;
+    
+
+    margin: 40px auto;
+    padding: 60px;
+    background: white;
+    border-radius: 8px;
+    border: 2px solid  #557850;
+     gap: 18px; 
+     font-size: 1.1rem;
+}
+
+.form-result{
+    display: flex;
+     align-items: center; 
+     justify-content: center;
+  top: 50%;
+  left: 50%;
+  background: white;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.form-result button{
+    background-color: #f9fafb;
+}
+
+.input {
+  width: 90%;
+  height: 15px;
+  max-width: 600px;
+  padding: 8px;
+  margin: 0;
+  border-radius: 8px;
+  border: 1px solid  #557850;
+  font-size: 1.2rem;
+  
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background: #557850;
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 6px;
+}
+
+button:hover {
+  transform: translateY(-2px);
+  box-shadow: 2px 2px 5px rgba(217, 23, 23, 0.3);
+  background: #006400;
+}
+
+
+.checkbox-label {
+  display: flex;
+  align-items: center;
+  gap: 50px;           
+  cursor: pointer;     
+}
+
+
+.checkbox-label input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  accent-color: #1a2b50; 
+  cursor: pointer;
+}
+
+
+.error {
+  color: red;
+  background-color: #ffe6e6;
+  padding: 20px;
+  text-align: center;
+  border-radius: 8px;
+  border: 2px solid;
+   width: 40%; 
+}
+
+.sending {
+  color: white;
+  background-color: gray;
+  padding: 20px;
+  text-align: center;
+  border-radius: 8px;
+  border: 2px solid;
+   width: 40%; 
+}
+
+.success {
+  color:#557850;
+  background-color: #e6ffe6;
+  padding: 20px;
+  text-align: center;
+  border-radius: 8px;
+  border: 2px solid;
+   width: 40%; 
+}
+
+.error > button {
+  background-color: rgb(169, 4, 4);
+  color: rgb(0, 0, 0);
+}
+
+.sending button {
+  background-color: gray;
+  color: white;
+}
+
+.success button {
+  background-color: #557850;
+  color: rgb(255, 255, 255);
+}
+
+.error button:hover {
+  background-color: red;
+}
+
+.success button:hover {
+  background-color: #006400;
+}
